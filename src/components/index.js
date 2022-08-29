@@ -8,6 +8,8 @@ import { List } from "./List";
 import { Row } from "./Row";
 import { Stack } from "./Stack";
 import { Text } from "./Text";
+import { Button } from "./Button";
+import { Input } from "./Input";
 export {
   Column,
   Datepicker,
@@ -19,4 +21,6 @@ export {
   Row,
   Stack,
   Text,
+  Button,
+  Input,
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import DesktopOne from "pages/DesktopOne";
+import Launcher from "pages/Launcher";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "pages/Home";
 import NotFound from "pages/NotFound";
@@ -10,7 +10,7 @@ const ProjectRoutes = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="*" element={<NotFound />} />
-        <Route path="/desktopone" element={<DesktopOne />} />
+        <Route path="/launcher" element={<Launcher />} />
       </Routes>
     </Router>
   );

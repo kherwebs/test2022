@@ -12,7 +12,7 @@ const Home = () => {
       </p>
       <ul>
         <li>
-          <Link to="/desktopone">DesktopOne</Link>
+          <Link to="/launcher">Launcher</Link>
         </li>
       </ul>
     </div>
